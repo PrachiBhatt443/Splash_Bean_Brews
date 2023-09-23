@@ -1,0 +1,47 @@
+.H1{
+    font-family: Poppins;
+    font-size: 98px;
+    font-weight: 800;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 620px;
+    /* height: 306px; */
+    color: aliceblue;
+    margin: 28% 24% auto;
+}
+
+.H5{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    word-spacing: 2px;
+    text-align: left; 
+    width: 600px;
+    color: aliceblue;
+    margin: 2% 24% auto;
+}
+
+.btn{
+        display: flex;
+        gap: 24px;
+        margin: 2% 24% auto;
+}
+
+.main{
+    display: flex;
+    gap :150px;
+    margin: auto;
+    background-color: rgb(27, 20, 11);
+}
+.IMG{
+    /* margin-left: 15%; */
+    width: 400px;
+    height: 550px;
+    margin: 10% ;
+}
+.tri{
+    display: flex;
+
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0 ;
+    padding: 0;
+  }
+.p1{
+    background-color: rgb(27, 20, 11);
+
+}
+.nav{
+    display: flex;
+    position:absolute;
+    margin-top: 40px ;
+    margin-left: 140px;
+    padding: 10px;
+    justify-content:space-between;
+    align-items: center;
+    font: 20px bold ;
+    background-color: rgb(27, 20, 11);
+    color: rgb(244, 227, 172);
+    height: 46px;
+    border: solid 2px rgb(245, 217, 222);
+    width: 80%;
+    }
+.nav ul {
+    display: flex;
+    gap: 26px;
+    list-style-type: none;
+    background-color: rgb(27, 20, 11);
+}
+.nav ul li{
+    display: flex;
+    background-color: rgb(27, 20, 11);
+}
+
+.red{
+   
+    width: 75px;
+   height: 31px;
+   color: white;
+   background-color: red;
+}
+
+/* .Hug{
+    width: 1125px;
+    height: 613px;
+    display: flex;
+    margin-left:157px;
+    margin-top:152px; 
+     border: solid;
+} .imge{
+    width: 530px;
+   height: 487px;
+   border: solid; 
+   margin-top: 63px;
+
+} 
+.snow{
+    display:flex;
+    gap:40px;
+    border: solid; 
+    margin-bottom: 30px ;
+}
+.red-btn{
+    background-color: #D01C28;
+    color: white;
+}
+
+.H3{
+width: 404px;
+height: 91px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #5A5959; 
+margin-top: 40px ;
+margin-bottom: 40px ;
+}
+h4
+.shop{
+    
+
+display: flex;
+gap:20px;
+
+}*/

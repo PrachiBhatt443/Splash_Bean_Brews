@@ -1,0 +1,26 @@
+.IMG{
+    height: 200px;
+    width:200px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.main{
+    list-style-type: none;
+    background-color: rgb(223, 238, 251);
+    align-items: center;
+    border: solid black 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.main a{
+    margin: 80px;
+}
+.box{
+    border: solid rgb(13, 13, 13) 1px;
+    background: linear-gradient(180deg,rgb(129, 113, 82),rgb(236, 206, 149));
+    
+}
+.box h1{
+    margin: 20px;
+}

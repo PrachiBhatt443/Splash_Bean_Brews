@@ -1,0 +1,47 @@
+.H1{
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 620px;
+    background-color: rgb(244, 227, 172);    
+    color: rgb(27, 20, 11);
+    margin-left: 30%;
+}
+.main{
+    background-color: rgb(244, 227, 172);
+}
+.H5{
+    font-family: Poppins;
+    font-size: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 620px;
+    background-color: rgb(244, 227, 172);    
+    color: rgb(27, 20, 11);
+    margin-left: 30%;
+}
+.nav{
+    display: flex;
+    margin-left :10%;
+    /* margin-right: 4%; */
+    padding: 10px;
+    gap:50px;
+    align-items: center;
+    font: 20px bold ;
+    color: rgb(27, 20, 11);
+    background-color: rgb(244, 227, 172);
+}
+.nav1{
+    display: flex;
+    margin:2% 35%;
+    /* margin-bottom: 8%; */
+    padding: 10px;
+    gap:50px;
+    align-items: center;
+    font: 20px bold ;
+    color: rgb(27, 20, 11);
+    background-color: rgb(244, 227, 172);
+}
