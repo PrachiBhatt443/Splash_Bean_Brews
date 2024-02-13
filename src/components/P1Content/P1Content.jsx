@@ -19,7 +19,7 @@ const P1Content = () => {
             <Button text="Order Now"/>
             <Button isOut={true} text="EXPLORE MORE"/>
         </div>
-        <div className={styles.tri}>
+        {/* <div className={styles.tri}>
           50+
           20+
           <div >
@@ -28,7 +28,7 @@ const P1Content = () => {
           <div>
             2k+
           </div>
-        </div>
+        </div> */}
         
       </section>
       

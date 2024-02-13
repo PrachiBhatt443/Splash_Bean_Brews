@@ -41,3 +41,8 @@
     height: 550px;
     margin: 2% auto;
 }
+@media (max-width: 768px){
+    .main{
+        display: none;
+    }     
+}

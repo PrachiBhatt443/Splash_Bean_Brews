@@ -2,9 +2,9 @@
     margin: 0 ;
     padding: 0;
   }
+/* Your existing CSS */
 .p1{
     background-color: rgb(27, 20, 11);
-
 }
 .nav{
     display: flex;
@@ -20,7 +20,7 @@
     height: 46px;
     border: solid 2px rgb(245, 217, 222);
     width: 80%;
-    }
+}
 .nav ul {
     display: flex;
     gap: 26px;
@@ -31,58 +31,61 @@
     display: flex;
     background-color: rgb(27, 20, 11);
 }
-
+.nav_items{
+    text-decoration: none;
+    color: rgb(244, 227, 172);
+}
 .red{
-   
-    width: 75px;
+   width: 75px;
    height: 31px;
    color: white;
    background-color: red;
+   text-decoration: none;
 }
-
-/* .Hug{
-    width: 1125px;
-    height: 613px;
+.basket{
     display: flex;
-    margin-left:157px;
-    margin-top:152px; 
-     border: solid;
-} .imge{
-    width: 530px;
-   height: 487px;
-   border: solid; 
-   margin-top: 63px;
-
-} 
-.snow{
-    display:flex;
-    gap:40px;
-    border: solid; 
-    margin-bottom: 30px ;
+    gap:24px;
 }
-.red-btn{
-    background-color: #D01C28;
-    color: white;
+.cart{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        width: 375px; 
+        height: 100vh;
+        background-color: rgb(244, 227, 172);
+        box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+        display: flex;
+        flex-direction: column;
+        z-index: 101;
+        color: rgb(27, 20, 11);
 }
-
-.H3{
-width: 404px;
-height: 91px;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #5A5959; 
-margin-top: 40px ;
-margin-bottom: 40px ;
+.chead{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem; /* You can adjust the value based on your needs */
+        cursor: pointer;
+      
 }
-h4
-.shop{
-    
-
-display: flex;
-gap:20px;
-
-}*/
+/* Hide ul items in mobile view */
+@media (max-width: 768px) {
+    .nav{
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 95vw;
+        z-index: 100; 
+    }
+    .nav ul{ 
+      display: none;
+    }
+    .nav .logo {
+      display: block; /* Show the logo */
+    }
+    .p1{
+        height: 50%vh;
+    }
+  }

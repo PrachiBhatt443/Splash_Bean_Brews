@@ -45,3 +45,21 @@
     color: rgb(27, 20, 11);
     background-color: rgb(244, 227, 172);
 }
+@media (max-width: 768px) {
+    .H1{
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 66px;
+        text-align: left; 
+        width: 80vw;
+        /* color: aliceblue; */
+        margin: 10% 20% auto;
+    }
+    .H5 ,.nav1{
+        display: none;
+    }
+    .nav{
+        display: block;
+    }
+}

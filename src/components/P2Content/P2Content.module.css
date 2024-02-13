@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(244, 227, 172);
+}
 .H1{
     font-family: Poppins;
     font-size: 98px;
@@ -43,3 +46,9 @@
     margin-right: 2%;
 
 }
+@media (max-width: 768px){
+    .main{
+        display: none;
+    }     
+}
+ 

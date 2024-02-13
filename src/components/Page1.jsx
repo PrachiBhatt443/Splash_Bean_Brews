@@ -6,8 +6,8 @@ import styles from './Navbar/Navbar.module.css'
 
 const Page1 = () => {
   return (
-    <div className={styles.p1}>
-      <Navbar/>
+    <div className={styles.p1} >
+      <Navbar />
       <P1Content/>
     </div>
   )
