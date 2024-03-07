@@ -36,8 +36,6 @@
 }
 .nav1{
     display: flex;
-    margin:2% 35%;
-    /* margin-bottom: 8%; */
     padding: 10px;
     gap:50px;
     align-items: center;
